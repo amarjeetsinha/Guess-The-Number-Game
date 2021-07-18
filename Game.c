@@ -8,6 +8,7 @@ int main()
     srand(time(0));            //Number Generator
     number = rand() % 100 + 1; //Generates a random number between 1-100
 
+    printf("Here starts the game\n");
     for (numguess=1; guess != number; numguess++)
     {
         printf("Enter your guess\n");
